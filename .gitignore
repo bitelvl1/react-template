@@ -1,14 +1,30 @@
-node_modules
+# Node dependencies
+node_modules/
+server/node_modules/
 
-dist
+# Build output
+dist/
+build/
 
-npm-debug.log
-yarn-error.log
+# Logs
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
 
+# Env files
 .env
 .env.local
 .env.*.local
 
-.idea
-.vscode
-.history
+# Editor / OS
+.idea/
+.vscode/
+.history/
+.DS_Store
+*.swp
+
+# Coverage / tests
+coverage/
+*.test.js
+*.spec.js
